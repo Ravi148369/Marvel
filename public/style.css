@@ -1,0 +1,14 @@
+#root{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url("/images/Marvel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}

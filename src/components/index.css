@@ -1,0 +1,547 @@
+/* styling for navbar components */
+.start{
+    display: flex;
+    align-items: center;
+}
+.root{
+    background-color:#030b17;
+    padding-left: 20px;
+    height:60px;
+    display: flex;  
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.login{
+    display: flex;
+    align-items: center;
+}
+.login button{
+    margin-right:40px;
+    color: white;
+    background-color: #1f80e0;
+    border: none;
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login i{
+    color: aliceblue;
+    margin-right: 10px;
+}
+.input-login{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.input{
+    position: relative;
+}
+#dropdown{
+    width: 270px;
+    background-color: #030b17;
+    max-height: 400px;
+    position: absolute;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    margin-top: 15px;
+}
+#dropdown div{
+    display: flex;
+    color: aliceblue;
+    width: 250px;
+    padding: 5px;
+}
+#dropdown img{
+    margin-left: 5px;
+    border-radius:5px;    
+}
+#dropdown h3{
+    margin-left: 15px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+.item a{
+    text-decoration: none;
+    color: white;
+}
+.root input {
+    margin-right:35px;
+    width: 250px;
+    font-size: 1em;
+    background-color:#030b17;
+    border:none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    align-self: center;
+}
+.root ::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  .root   :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+  
+  .root   ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+  }
+ul{
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left:40px;
+}
+li{
+    color: rgb(209, 209, 209);
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 8px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+    font-size: 1.1em;
+}
+li a:hover{
+    color: rgb(182, 182, 182);
+    border-bottom:1px solid rgb(182, 182, 182);
+}
+
+
+/* styling for continue watching components */
+.watching{
+    margin-top:140px;
+    margin-left: 20px;
+}
+.watching h2{
+    color: honeydew;
+}
+.watching .img{
+    border-bottom: 4px solid red;
+}
+
+
+
+/* styling the home image components */
+.languages{
+    margin-top: 10px;
+    margin-left: 40px
+}
+.languages a,.languages b {
+    padding: 8px;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    /* border: 1px solid white; */
+}
+.image{
+    height: 450px;
+    margin-left:40px;
+    margin-top: 20px;
+    width: 1400px;
+    display: flex;
+    border-radius: 5px;
+}
+.image h2{
+    color: azure;
+}
+.image p{
+    margin-top: 40px;
+    color: rgb(250, 250, 250);
+}
+.image h3{
+    margin-top: 8px;
+    color: rgb(168, 168, 168)
+}
+.side{
+    display: flex;
+    width: 1400px;
+    border-radius: 5px;
+    background: linear-gradient(to right ,#030b17 60%,rgba(255, 255, 255, 0));
+    
+}
+#imageholder{
+    /* background:linear-gradient(to right, #030b17,rgba(255, 255, 255, 0)),url('/public/images/dr-strange.jpg'); */
+    width: 760px;
+    background-size: cover;
+    border-radius: 5px;
+}
+.content{
+    margin-left:40px;
+    margin-top:80px;
+    width: 600px;
+}
+.watch-later i{
+    color: aliceblue;
+    margin-right: 8px;
+    font-size: 1.6em;
+    /* border: 1px solid white; */
+}
+.watch-later button{
+    display: flex;
+    padding: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.watch-movie button{
+    display: flex;
+    padding: 5px;
+    border: none;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.watch-movie{
+    display: flex;
+    margin-top:80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.watch-movie div{
+    display: flex;
+    align-items: center;
+}
+.watch-movie div:hover i, .watch-movie div:hover h2{
+    color: rgb(168, 168, 168);
+}
+.watchmovie i{
+    padding-right: 8px;
+    color: rgb(199, 199, 199);
+    font-size: 2.4em;
+}
+.trending h2{
+    margin-left: 20px;
+    color: aliceblue;
+}
+#collection0,#collection1,#collection2{
+    margin-left: 10px;
+    display: flex;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+#collection0::-webkit-scrollbar,#collection1::-webkit-scrollbar,#collection2::-webkit-scrollbar{
+    display: none;
+}
+#collection0 p,#collection1 p,#collection2 p{
+    margin-top: 0;
+    font-size: 1.2em;
+    /* border: 1px solid white; */
+    color: aliceblue;
+}
+#collection0 img,#collection1 img,#collection2 img{
+    width: 225px;
+    height: 140px;
+}
+#collection0 div,#collection1 div,#collection2 div{
+    padding:10px;
+}
+
+/* styling the watch trailer component */
+#trailer{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#trailer h2{
+    color: white;
+}
+#trailer-img{
+    border-radius: 15px;
+}
+#trailer button{
+    margin-top: 15px;
+    border-radius: 5px;
+    padding:6px;
+    cursor: pointer;
+    border: none;
+    width: fit-content;
+}
+#trailer button a{
+    text-decoration: none;
+    color: #000;
+}
+#pr{
+    height: 200px;
+    width: 200px;
+}
+#trailer div{
+    margin-top: 5px;
+}
+/* styling the episodes component */
+.episodes{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.episodes h2{
+    color: white;
+    margin: 0;
+}
+#episode{
+    display: flex;
+    width: 1500px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    /* border: 1px solid white; */
+}
+#episode div{
+    padding: 8px;
+}
+#episode div p,#episode div i{
+    color: white;
+    padding: 0;
+    /* border: 1px solid white; */
+    margin: 0;
+}
+#episode div div{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    padding: 0;
+}
+/* styling the more like this component */
+.more{
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.more div{
+    padding: 10px;
+}
+.more div h4{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.more-like{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.more-like h2{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+/* styling the footer component */
+.footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.left-div{
+    width: 700px;
+    margin-left: 30px;
+}
+.left-div p{
+    margin-top:15px;
+    font-size:.85em;
+    color: #909999;
+}
+.links h3{
+    border: 1px solid white;
+}
+.links a{   
+    font-size: 1.05em;
+    text-decoration: none;
+    padding-right: 20px;
+    color: #dadada;
+}
+.middle-div h3{
+    margin-top: 0;
+    margin-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #dadada  ;
+    font-size: 1em;
+}
+.middle-div img{
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0.219);
+    border-radius:5px;
+    margin: 5px;
+    width: 25px;
+    height: 24  px;
+}       
+.middle-div img:hover{
+    cursor: pointer;
+    background-color:#1f80e0;
+}
+.right-div{
+    /* border: 1px solid white; */
+    margin-right: 20px;
+}
+.right-div h3{
+    margin-top: 0;
+    margin-bottom: 10px ;
+    color: #dadada;
+    font-size: 1em;
+    /* border: 1px solid white; */
+}
+.playstore {
+    /* border: 1px solid white; */
+    border-radius:4px;
+    background-color: rgba(255, 255, 255, 0.219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 145px;
+    height: 40px;
+}
+.playstore img{
+    padding-right:6px;
+}
+.get-it h3{
+    color: #dadada;
+    /* border: 1px solid white; */
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 4px;
+    font-size: 1em;
+    padding-right:2px;
+}
+.get-it p{
+    font-size:.6em;
+    /* border: 1px solid white; */
+    padding-top: 8px;
+    margin-bottom: 0;
+    margin-right:8px;
+    color: #dadada;
+}
+.appstore{
+    width: 145px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius:4px;
+    background-color: rgba(255, 255, 255, 0.219);
+}
+.appstore:hover,.playstore:hover{
+    background-color: #1f80e0;
+    cursor: pointer;
+}
+.appstore img{
+    padding-right:8px;
+}
+.flexbox{
+    display: flex;
+}
+
+/* Styling the Not found Component*/
+.NotFound{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+.NotFound h1{
+    color: white;
+}
+.NotFound h2{
+    color: white;
+}
+.NotFound button{
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.164);
+    padding: 16px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.NotFound a{
+    color:  white;
+    text-decoration: none;
+}
+
+
+/* styling the setting component */
+
+.card button{
+    display: flex;
+    color: white;
+    padding:12px;
+    background-color: #030b17;
+    cursor: pointer;
+    margin: 4px;
+    border: none;
+}
+.card button a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:  white;
+}
+.card button a:hover{
+    border-width: 20px;
+    color: rgb(167, 167, 167);
+}
+.card{
+    width: fit-content;
+    height: 90vh;
+    position: sticky;
+    top: 65px;
+    background-color: #030b17;
+    margin-top:5px;
+    /* border: 1px solid white; */
+}
+.card p{
+    padding: 8px;
+    width: 300px;   
+    margin: 4px;
+    color:  white;
+}
+.card button i{
+    margin-left: 10px;
+    margin-right: 14px;
+}
+.setting{
+    /* border: 1px solid white; */
+    background-color: #000;
+    display: flex;
+}
+.outlet{
+    overflow-y: scroll; 
+    scrollbar-width: none;
+    /* border: 1px solid white; */
+}
+/* styling the downlod component */
+.downlods{
+    width: 800px;
+    color:white;
+    margin-left:40px;
+}
+.downlod-icons{
+    display: flex;
+    align-items: center;
+}
+.downlod-icons i{
+    margin-left: 15px;
+}
+.downlod .downlod-icons i{
+    font-size: 1em;
+}
+.downlods .downlod{
+    display: flex;
+    padding: 10px;    
+}
+.downlods div img{
+    padding-left: 5px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+.downlods .downlod div h4{
+    color: rgb(206, 206, 206);
+}
+.downlods .downlod div p{
+    color: rgb(165, 165, 165);
+}

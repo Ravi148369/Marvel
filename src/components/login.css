@@ -1,0 +1,38 @@
+/* Styling the Login Component */
+
+.center h1{
+    color: white;
+}
+.log-in label{
+    color: white;
+}
+.log-in{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c111b;
+}
+.center h1{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.center input{
+    width: 300px;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.301);
+}
+.center button{
+    margin-top: 20px;
+    padding: 8px 16px 8px 16px; 
+    border: none;
+    border-radius: 8px;
+    background-color: #1f80e0;
+    color: #dadada;
+}
