@@ -1,14 +1,12 @@
-import React, { useState,useContext} from 'react'
+import React, { useState} from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import './index.css'
 import files from './trending_list'
-import noteContext from '../Context/NoteContext'
 
 
 
 export default function Navbar() {
     const [data,setData]=useState('')
-    let user=useContext(noteContext)
     let navigate=useNavigate()
     const onChange=(event)=>{
         setData(event.target.value)
@@ -52,7 +50,7 @@ export default function Navbar() {
                 </div>
                 <div className='login'>
                     <i className='material-icons'>account_circle</i>
-                    <button onClick={onClick}>{user.username}</button>
+                    <button onClick={onClick}>testUser</button>
                 </div>
             </div>
         </div>

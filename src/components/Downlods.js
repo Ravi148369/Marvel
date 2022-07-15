@@ -8,7 +8,7 @@ export default function Downlods(){
     return(
         <div className='downlods'>
             <div className="downlod-icons">
-                <h1>Downlods</h1>
+                <h1>Wish list</h1>
                 <i className='material-icons'>library_add</i> 	
             </div>  
         {

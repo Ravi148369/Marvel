@@ -5,7 +5,7 @@ export default function Setting(){
     return(
         <div className="setting">
             <div className="card">
-                <button><i className='material-icons'>file_download</i> <Link to={'/account/downlods'}>Downlods</Link></button>
+                <button><i className='material-icons'>file_download</i> <Link to={'/account/downlods'}>Watch later</Link></button>
                 <button><i className='material-icons'>person</i><Link to={'/account/downlods'}>Account</Link></button>
                 <button><i className='material-icons'>settings</i><Link to={'/account/downlods'}>Setting</Link></button>
                 <button><i className='material-icons'>library_books</i><Link to={'/account/downlods'}>terms & condition</Link></button>
